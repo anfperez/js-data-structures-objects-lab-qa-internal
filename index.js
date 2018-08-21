@@ -19,6 +19,11 @@ function deleteFromDriverByKey (driver, key) {
   return newObj;
 }
 
+driver = {
+  "name": "Jason",
+  "residence": "NY"
+}
+
 function destructivelyDeleteFromDriverByKey (driver, key) {
   delete driver[key];
 
