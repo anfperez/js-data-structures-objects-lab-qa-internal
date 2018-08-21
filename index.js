@@ -20,8 +20,7 @@ function deleteFromDriverByKey (driver, key) {
 }
 
 driver = {
-  "name": "Jason",
-  "residence": "NY"
+  "name": "Jason"
 }
 
 function destructivelyDeleteFromDriverByKey (driver, key) {
